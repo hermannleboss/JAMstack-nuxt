@@ -1,5 +1,6 @@
 <template>
-    <pre>{{story}}</pre>
+<!--    <pre>{{story}}</pre>-->
+    <StoryblokComponent  v-if="story" :blok="story.content"></StoryblokComponent >
 </template>
 
 <script setup lang="ts">
