@@ -1034,6 +1034,29 @@
     "@sigstore/protobuf-specs" "^0.2.0"
     tuf-js "^1.1.7"
 
+"@storyblok/js@^2.2.9":
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/@storyblok/js/-/js-2.2.10.tgz#478f13c19fbffacf5086654565555f8d0c67acfd"
+  integrity sha512-nlBo2xGKeHV0nMix133eG7jQbI1vlpCnqPMLWCHAGeOFTFHtgFFVJyqWFSbmv3rq+Vofa2dzvh7jIl9norL1wA==
+  dependencies:
+    storyblok-js-client "^5.14.1"
+
+"@storyblok/nuxt@^5.6.2":
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/@storyblok/nuxt/-/nuxt-5.6.2.tgz#af9a81f5f3d8b58106f7441967fb2ff1d18750f9"
+  integrity sha512-PWz8Zn+Ao5RTfIJQ86ZXwgnp2vbTNF6ONsc3yvycUZhX3rgxgIexC5WT7+dcGF8Rv15w8ribimhMO6YnjcZBmg==
+  dependencies:
+    "@nuxt/kit" "^3.6.5"
+    "@storyblok/vue" "^7.1.11"
+    prettier "^3.0.0"
+
+"@storyblok/vue@^7.1.11":
+  version "7.1.14"
+  resolved "https://registry.yarnpkg.com/@storyblok/vue/-/vue-7.1.14.tgz#dcc41a710242940eba48bca825b04d490cfc7b75"
+  integrity sha512-X02Hvjg6h9g862C/rsjHRVqgnPptBegiptTn0TMT2+L8nJGrfbKvJVzD4j+PucowFc0JZhoejsXYBxOiOzF5pA==
+  dependencies:
+    "@storyblok/js" "^2.2.9"
+
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"
@@ -4681,6 +4704,11 @@ postcss@^8.1.10, postcss@^8.4.23, postcss@^8.4.24, postcss@^8.4.27:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
+prettier@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.1.tgz#65271fc9320ce4913c57747a70ce635b30beaa40"
+  integrity sha512-fcOWSnnpCrovBsmFZIGIy9UqK2FaI7Hqax+DIO0A9UxeVoY4iweyaFjS5TavZN97Hfehph0nhsZnjlVKzEQSrQ==
+
 pretty-bytes@^6.1.0:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-6.1.1.tgz#38cd6bb46f47afbf667c202cfc754bffd2016a3b"
@@ -5172,6 +5200,11 @@ std-env@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
+
+storyblok-js-client@^5.14.1:
+  version "5.14.1"
+  resolved "https://registry.yarnpkg.com/storyblok-js-client/-/storyblok-js-client-5.14.1.tgz#decd35997bad5a94ae0e586483ecd9d95886646e"
+  integrity sha512-fHzh2fMyc5CP17HEk/6kn3KJCGIGCerfNVkBEh4KO/bSi59Rmf9cznNSB2CSale8jRSC0xzVBZgMezlmvi+nPg==
 
 streamsearch@^1.1.0:
   version "1.1.0"
@@ -5873,6 +5906,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
