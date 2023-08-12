@@ -2,8 +2,9 @@
 import * as process from "process";
 
 export default defineNuxtConfig({
-  devtools: { enabled: true },
-  modules:[
-    ["@storyblok/nuxt", { accessToken: process.env.ACCESS_TOKEN }]
-  ]
+    devtools: {enabled: true},
+    css: ['~/assets/main.css'],
+    modules: [
+        ["@storyblok/nuxt", {accessToken: process.env.ACCESS_TOKEN}]
+    ]
 })
