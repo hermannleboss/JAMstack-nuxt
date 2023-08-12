@@ -4,7 +4,7 @@ defineProps({
 })
 </script>
 <template>
-    <div class="hero">
+    <div class="hero" v-editable="blok">
         <div class="container">
             <div class="col">
                 <img :src="blok.image.filename" :alt="blok.image.alt">
