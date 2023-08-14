@@ -4,7 +4,7 @@
 
 <script setup lang="ts">
 
-const story = await useStoryblok('home', {version: useRoute().query._storyblock ? 'draft' : "published", resolve_relations: 'featuredProjects.projects'}, {resolveRelations: 'featuredProjects.projects'})
+const story = await useStoryblok('home', {version: useRoute().query._storyblok ? 'draft' : "published", resolve_relations: 'featuredProjects.projects'}, {resolveRelations: 'featuredProjects.projects'})
 </script>
 
 
